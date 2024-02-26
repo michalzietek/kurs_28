@@ -1,4 +1,6 @@
 from math import pi
+
+
 class Kolo:
     def __init__(self, promien):
         self.promien = promien
