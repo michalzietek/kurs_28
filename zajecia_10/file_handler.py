@@ -51,7 +51,7 @@ class FileHandler:
 
     def mult_row(self, index, value):
         for position, number in enumerate(self.matrix[index]):
-            self.matrix[index][number] = number * value
+            self.matrix[index][position] = number * value
 
     def mult_col(self, index, value):
         for row in self.matrix:
