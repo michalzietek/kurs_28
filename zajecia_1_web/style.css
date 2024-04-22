@@ -1,0 +1,30 @@
+h1 {
+    color: aqua;
+    background-color: black;
+}
+h2 {
+    color: aquamarine;
+    background-color: black;
+}
+
+.header1{
+    color: darkred;
+    background-color: aliceblue;
+}
+
+#napis-powitalny{
+    font-size: 10vh;
+    color: chartreuse;
+}
+
+.container {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 50px 10px 20px 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}

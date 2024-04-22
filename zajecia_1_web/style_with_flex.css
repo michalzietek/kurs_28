@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+}
+
+th, td {
+    border: 1px solid black;
+}
