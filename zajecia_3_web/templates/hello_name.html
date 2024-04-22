@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello name</title>
+</head>
+<body>
+    {% if rendered_name %}
+    <h1>Welcome to our project {{ rendered_name }}. </h1>
+    {% else %}
+    <h1>Unfortunately! The user is not in our database!</h1>
+    {% endif %}
+</body>
+</html>
